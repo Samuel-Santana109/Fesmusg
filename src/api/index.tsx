@@ -1,4 +1,4 @@
-const baseUrl = "http://vps49484.publiccloud.com.br:3001/v1/";
+//const baseUrl = "http://vps49484.publiccloud.com.br:3001/v1/";
 
 export const login = async ({
   body,

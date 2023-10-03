@@ -16,7 +16,7 @@ function FormPage() {
       <Navbar title="FEMUSG Cadastro de música" />
       {isRegisterSuccess 
         ? <div className="my-40 max-w-[500px] mx-auto">
-            <Alert message="Cadastro realizado com sucesso e enviado para análise"/>
+            <Alert message="Cadastro realizado com sucesso e enviado para análise" />
           </div> 
         : <Form 
             onSubmit={(e: any) => {
